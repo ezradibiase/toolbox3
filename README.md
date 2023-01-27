@@ -1,8 +1,8 @@
 # toolbox
 
-### Immagine docker basata su Ubuntu 20 contenente alcuni strumenti utili per fare debugging in caso non funzioni qualcosa su Kubernetes.
+### Immagine docker basata su Ubuntu 22.04 contenente alcuni strumenti utili per fare debugging in caso non funzioni qualcosa su Kubernetes.
 
-Toolbox permette di eseguire comandi di diagnosi all'interno di un POD.
+Toolbox permette di eseguire comandi di diagnosi.
 
 ⚡️ Alcuni comandi disponibili:
 
