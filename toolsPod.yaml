@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: toolbox
+spec:
+  restartPolicy: OnFailure
+  #  serviceAccountName: moova-sa
+  containers:
+    - name: toolbox
+      image: ezradibiase/toolbox:3.1
+      imagePullPolicy: Always
